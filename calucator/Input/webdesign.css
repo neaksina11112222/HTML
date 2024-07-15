@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+
+}
+.containt {
+    display: flex;
+}
+.main-containt{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+nav{
+    background: #64d8f5;
+    height: 7vh;
+}
+.sidebar{
+    background: #884949;
+    height: 50vh;
+    width: 50%;
+}
+main{
+    background: #46b4af;
+    width: 100%;
+
+}
+.containt1{
+    background: #a14747;
+    width: 49%;
+}
+.containt2{
+    background: #8dabec;
+    width: 49%;
+}
+footer{
+    background: #7dd5e0;
+    height: 7vh;
+}
